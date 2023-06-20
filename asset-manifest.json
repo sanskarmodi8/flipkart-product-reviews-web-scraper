@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/flipkart-product-reviews-web-scraper/static/js/main.44eec29f.js",
+    "main.js": "/flipkart-product-reviews-web-scraper/static/js/main.8b97c00f.js",
     "index.html": "/flipkart-product-reviews-web-scraper/index.html",
-    "main.44eec29f.js.map": "/flipkart-product-reviews-web-scraper/static/js/main.44eec29f.js.map"
+    "main.8b97c00f.js.map": "/flipkart-product-reviews-web-scraper/static/js/main.8b97c00f.js.map"
   },
   "entrypoints": [
-    "static/js/main.44eec29f.js"
+    "static/js/main.8b97c00f.js"
   ]
 }
