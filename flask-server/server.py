@@ -1,5 +1,5 @@
 
-#this flask api code is hosted at https://salmon-policeman-fothu.pwskills.app:5000/result
+#this flask api code is hosted at https://flipkart-reviews-scraper-flask-api.onrender.com/result
 
 
 
@@ -9,8 +9,6 @@ from flask_cors import CORS
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
-import logging
-logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
 app = Flask(__name__)
 CORS(app)
@@ -62,11 +60,11 @@ def scrape():
                                 "Comment Message": commentmsg}
             reviews.append(mydict)
     except:
-        return "something is wrong"
+        return {"error" : "something is wrong"}
 
     return jsonify(reviews)
   else:
-      return "backend flask api"
+      return "backend flask-api"
 
 
 if __name__ == "__main__":

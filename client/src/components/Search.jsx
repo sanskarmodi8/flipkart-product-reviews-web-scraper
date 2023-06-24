@@ -26,7 +26,7 @@ const Search = () => {
   };
   const submitProductName = () => {
     setLoading(true);
-    fetch('https://sanskarmodi.python/result', {
+    fetch('https://flipkart-reviews-scraper-flask-api.onrender.com/result', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
