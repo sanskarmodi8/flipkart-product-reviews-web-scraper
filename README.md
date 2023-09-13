@@ -9,8 +9,6 @@ This repository contains the code for a web application that allows you to scrap
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## About the Project
 
